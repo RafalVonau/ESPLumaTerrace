@@ -38,7 +38,6 @@
 #include <time.h>
 #include <sys/time.h>
 #include "esp_sntp.h"
-#include "nvram.h"
 #include "esp_pm.h"
 
 /* Configurable parameters: */
@@ -275,17 +274,6 @@ bool syncTime(int timeout_ms)
     msg_error("Invalid NTP response");
     close(sock);
     return false;
-}
-
-/**
- * \brief SNTP time sync callback.
- */
-void time_sync_notification_cb(struct timeval *tv)
-{
-    msg_info("Time has been synchronized");
-    if (ntp_sync_semaphore != NULL) {
-        xSemaphoreGive(ntp_sync_semaphore);  // Release the semaphore when time is synchronized
-    }
 }
 
 /**
@@ -543,7 +531,6 @@ bool connectToWiFi()
       ESP_ERROR_CHECK(nvs_flash_erase());
       ret = nvs_flash_init();
     }
-    nvram_sn_init();
     // Connect to WiFi
 	ESP_ERROR_CHECK(ret);
     s_wifi_event_group = xEventGroupCreate();
