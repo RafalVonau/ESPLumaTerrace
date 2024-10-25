@@ -1,0 +1,322 @@
+{
+  "uuid": "e7a1796fdea0b8f652ccb0481bb36dad",
+  "path": "Offline/terrace_18650",
+  "name": "terrace_18650",
+  "content": "",
+  "created_at": "2024-09-29 12:49:49",
+  "updated_at": "2024-09-29 15:47:18",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "933df35e6ad81f11329a286ce84eb1b0",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a6c142fa3c4f4a60aef764aabee53ab7": 1,
+        "8f9c160e4e07491fb2a8e29c817eef15": 1,
+        "7c93ed99024141c0b5c38e0c928727be": 2,
+        "94c9112444f9419d9c49eadf9a11d9e6": 1,
+        "ac6665e917b04017ae95551628d5c72a": 1,
+        "6cef61aee3994d0d8b3d647f407a6449": 1,
+        "bb009484ef804a24ac5d18c54b249586": 6,
+        "f000860a6ce54d1cae785e2a7b4d28eb": 2,
+        "0a7c88e915234be993e1bc6ae8a11a66": 1,
+        "f86e9547ad2a436b9384c1c462bc0e6b": 1,
+        "c6cf2c226d274df4a67e4b29e33dceab": 1,
+        "4b0c7e24c282414cba6dff972c461fff": 1,
+        "0783bf3e5e8a40d79bff27bb118bbc24": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "MA02-1",
+          1,
+          "MA02-1",
+          "BOOT",
+          {
+            "Contributor": "Eagle",
+            "spiceSymbolName": "MA02-1",
+            "Manufacturer Part": "",
+            "puuid": "8ae90ca35f4046e086a84daa591f6807",
+            "uuid": "6cef61aee3994d0d8b3d647f407a6449"
+          }
+        ],
+        [
+          "100n",
+          3,
+          "0603",
+          "C1,C4,C5",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "Chinocera(华瓷)",
+            "Manufacturer Part": "HHV0603R7104K101NTHJ",
+            "Supplier Part": "C5186689",
+            "puuid": "a29ba53807cf43cab02f2f8a6393998d",
+            "uuid": ""
+          }
+        ],
+        [
+          "100uF",
+          2,
+          "CASE-C_6032",
+          "C2,C3",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "C129274",
+            "Supplier": "LCSC",
+            "spiceSymbolName": "C_Tan_SMD_C_EU",
+            "Manufacturer Part": "CA45-D-16V-100uF-K",
+            "Manufacturer": "CEC(振华新云)",
+            "puuid": "2e3b51fe362d43e186fe7a3d3be61b85",
+            "uuid": "7c93ed99024141c0b5c38e0c928727be"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "C1206",
+          "C6",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_1206_EU",
+            "Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "0783bf3e5e8a40d79bff27bb118bbc24"
+          }
+        ],
+        [
+          "ESP32-WROOM-32E(8MB)",
+          1,
+          "WIFI-SMD_ESP32-WROOM-32E",
+          "ESP32",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C701342",
+            "Manufacturer": "ESPRESSIF(乐鑫)",
+            "Manufacturer Part": "ESP32-WROOM-32E-N8",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ESP32-WROOM-32E(8MB)",
+            "puuid": "febebcac3bf6481f9b9f64b8a412bfb8",
+            "uuid": "94c9112444f9419d9c49eadf9a11d9e6"
+          }
+        ],
+        [
+          "F1206HC10A0TM",
+          1,
+          "FUSE-SMD_L3.2-W1.6-1",
+          "F5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C310989",
+            "Manufacturer": "AEM",
+            "Manufacturer Part": "F1206HC10A0TM",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C310989&%26type=1&ref=editor",
+            "spiceSymbolName": "F1206HC10A0TM",
+            "puuid": "fa12e3910f664c38be0da2396cdcd274",
+            "uuid": "a6c142fa3c4f4a60aef764aabee53ab7"
+          }
+        ],
+        [
+          "IRLML0040TRPBF",
+          1,
+          "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+          "Q2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "Infineon(英飞凌)",
+            "Manufacturer Part": "IRLML0040TRPBF",
+            "Supplier Part": "C67273",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C67273&%26type=1&ref=editor",
+            "spiceSymbolName": "IRLML0040TRPBF",
+            "puuid": "b3b82869fa924bae820e3a6cfb44d689",
+            "uuid": "0a7c88e915234be993e1bc6ae8a11a66"
+          }
+        ],
+        [
+          "10",
+          2,
+          "R0603",
+          "R1,R6",
+          {
+            "Supplier Part": "C203240",
+            "Supplier": "LCSC",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "CR0603-FX-10R0ELF",
+            "Manufacturer": "BOURNS",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R0603",
+          "R2,R15",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "500k",
+          2,
+          "R0603",
+          "R9,R10",
+          {
+            "Supplier Part": "C705902",
+            "Supplier": "LCSC",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "RT0603CRD074K7L",
+            "Manufacturer": "YAGEO(国巨)",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "MA03-1",
+          1,
+          "MA03-1",
+          "RS",
+          {
+            "Contributor": "jaredpi",
+            "spiceSymbolName": "MA03-1",
+            "Manufacturer Part": "",
+            "puuid": "6b995bced57445188ee34c66130feeaf",
+            "uuid": "ac6665e917b04017ae95551628d5c72a"
+          }
+        ],
+        [
+          "KH-6X6X5H-TJ",
+          1,
+          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "SW1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2837515",
+            "Manufacturer": "kinghelm(金航标)",
+            "Manufacturer Part": "KH-6X6X5H-TJ",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C2837515&%26type=1&ref=editor",
+            "spiceSymbolName": "KH-6X6X5H-TJ",
+            "puuid": "153ed004b0794cb6b8a2ebde7a1aabdf",
+            "uuid": "4b0c7e24c282414cba6dff972c461fff"
+          }
+        ],
+        [
+          "HT7833",
+          1,
+          "SOT-89_L4.5-W2.5-P1.50-LS4.2-BR",
+          "U2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "HOLTEK(合泰/盛群)",
+            "Manufacturer Part": "HT7833",
+            "Supplier Part": "C50936",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C50936&%26type=1&ref=editor",
+            "spiceSymbolName": "HT7833",
+            "puuid": "b53b811b9fcb4eab8010951b47fd4339",
+            "uuid": "8f9c160e4e07491fb2a8e29c817eef15"
+          }
+        ],
+        [
+          "18650 BATTERY SOLDERING",
+          1,
+          "18650_PCB SOLDER",
+          "U3",
+          {
+            "Manufacturer": "Kpacitor",
+            "Manufacturer Part": "18650 PCB",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "elderlucas",
+            "spiceSymbolName": "18650 BATTERY SOLDERING",
+            "puuid": "8900bd4db11b4e7ea7dcfe76127911a2",
+            "uuid": "f86e9547ad2a436b9384c1c462bc0e6b"
+          }
+        ],
+        [
+          "TP4056 18650 Battery Charger Module",
+          1,
+          "18650_CHARGER_MODULE",
+          "U4",
+          {
+            "Manufacturer Part": "TP4056 Lithium Battery Charger Module",
+            "Contributor": "Anonymix",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "TP4056 18650 Battery Charger Module",
+            "puuid": "03a929500da244f9bc450c818685d95a",
+            "uuid": "c6cf2c226d274df4a67e4b29e33dceab"
+          }
+        ]
+      ],
+      "updateTime": 1727617479,
+      "createTime": 1727606989,
+      "histories": [],
+      "created_at": "2024-09-29 12:49:49",
+      "updated_at": "2024-09-29 15:44:39"
+    },
+    {
+      "uuid": "34e9d786155cad4f1993eca0a7b89086",
+      "puuid": "e7a1796fdea0b8f652ccb0481bb36dad",
+      "title": "PCB_terrace_18650",
+      "filename": "PCB_terrace_18650.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a29ba53807cf43cab02f2f8a6393998d": 3,
+        "2e3b51fe362d43e186fe7a3d3be61b85": 2,
+        "febebcac3bf6481f9b9f64b8a412bfb8": 1,
+        "fa12e3910f664c38be0da2396cdcd274": 1,
+        "d804091ad56742098f59fb59685c7b30": 2,
+        "b3b82869fa924bae820e3a6cfb44d689": 1,
+        "398691f1f785460098bbe5ee6590333c": 6,
+        "6b995bced57445188ee34c66130feeaf": 1,
+        "b53b811b9fcb4eab8010951b47fd4339": 1,
+        "03a929500da244f9bc450c818685d95a": 1,
+        "153ed004b0794cb6b8a2ebde7a1aabdf": 1,
+        "8900bd4db11b4e7ea7dcfe76127911a2": 1,
+        "7bdec8012728462a85919a4d0d033579": 1,
+        "8ae90ca35f4046e086a84daa591f6807": 1
+      },
+      "BOM": [],
+      "updateTime": 1727617638,
+      "createTime": 1727609459,
+      "histories": [],
+      "created_at": "2024-09-29 13:30:59",
+      "updated_at": "2024-09-29 15:47:18"
+    }
+  ],
+  "sort": [],
+  "title": "terrace_18650",
+  "foldername": "terrace_18650",
+  "schfilename": "terrace_18650.json",
+  "schfilemtime": 1727617479274
+}
